@@ -27,6 +27,7 @@ textarea{
      padding: 20px;
      margin: 20px;
     margin-inline-end: 700px;
+    margin-left: 20px;
 }
 
 @media (max-width:768px){
