@@ -1,0 +1,56 @@
+.contact_bg{
+     background-color: rgba(0, 0, 0, 0.921);
+    height:600px;
+}
+input{
+    width:300px;
+    height:30px;
+    border-radius:5px;
+    border:solid 1px;
+    border-color: rgb(144, 144, 144);
+}
+textarea{
+    border-radius: 5px;
+}
+.send_msg{
+     border:solid 1px;
+    border-color: rgb(144, 144, 144);
+     border-radius:5px;
+     background-color:rgb(153, 117, 238) ; 
+     color:white;
+
+     
+}
+.con{
+    border:solid 1px;
+     border-radius:5px;
+     padding: 20px;
+     margin: 20px;
+    margin-inline-end: 700px;
+}
+
+@media (max-width:768px){
+    .contact_bg{
+      height:700px;
+}
+
+
+}
+
+@media (min-width:768px){
+    .con{
+      margin-left: 500px;
+}.contact_bg{
+      height:650px;
+}
+
+}
+.footer{
+    font-size: 40px;
+}
+hr{
+    color:blueviolet;
+}
+.rights{
+    font-size: 10px;
+}

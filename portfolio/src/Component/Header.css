@@ -1,0 +1,58 @@
+.N{
+    color:rgba(255, 255, 255, 0.745);
+    border-radius: 50%;
+    background-color: rgb(166, 135, 238);
+    font-weight: bold;
+    padding: 5px;
+    font-size: 13px;
+}
+.nav-link{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.542);
+    font-size: 13px;
+}
+.navbar{
+    background-color: rgba(14, 1, 46, 0.967);
+    width:100%;
+    
+}
+.navbar-brand{
+    color:rgba(255, 255, 255, 0.527);
+    font-size: 17px;
+}
+.navbar-toggler-icon{
+    font-size: 12px;
+    background-color: rgb(166, 135, 238); 
+    border-radius: 10%;
+    border-color: rgb(166, 135, 238);  
+}
+    
+
+@media  (min-width:768px){
+.pages{
+    margin-left: 560px;
+}
+}
+.resume{
+    background-color: rgb(153, 117, 238);
+    border-radius:10px;
+    padding: 4px;
+    border: solid;
+    border-color:rgb(153, 117, 238) ;
+    
+    
+}
+.nav-link:hover{
+    color:white;
+}
+.navbar-brand:hover{
+    color:white;
+}
+.link_resume{
+    text-decoration: none;
+}
+
+
+    
+
+

@@ -1,0 +1,27 @@
+.my_services{
+     color:  rgb(125, 76, 238);
+}
+.services_bg{
+    height:500px;
+    width:100%;
+}
+.services{
+      background: linear-gradient( to left,rgba(0, 0, 0, 0.368),rgb(62, 3, 139));
+     
+}
+.services_color{
+     color:  rgb(255, 255, 255);
+}
+
+
+@media(min-width:768px){
+     .card-data{
+          width:75%;
+     }
+}
+@media(max-width:768px){
+     .card-data{
+          width:50%;
+     }
+}
+                                                                                        

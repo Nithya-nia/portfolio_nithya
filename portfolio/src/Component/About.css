@@ -1,0 +1,25 @@
+.about{
+    background-color: rgba(0, 0, 0, 0.921);
+    height:400px;
+}
+
+@media (max-width:768px){
+    .about{
+        height:600px;
+    }
+}
+.about_me{
+    color:  rgb(166, 135, 238); 
+}
+
+.education{
+ background: linear-gradient( to left,rgba(0, 0, 0, 0.368),rgb(62, 3, 139));
+ 
+}
+
+@media (min-width:768px){
+.card_data{
+        width:50%;
+}
+
+}

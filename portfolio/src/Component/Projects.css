@@ -1,0 +1,95 @@
+.projects_bg{
+     background: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.827));
+       height:800px;
+}
+.wrapper{
+  position:relative;
+  overflow:hidden;
+  height:300px;
+  /* width:300px; */
+}
+.wrapper img{
+  position:absolute; 
+  transition: 10s ease-out;
+  cursor:pointer;
+  scroll-behavior: smooth;
+}
+.wrapper .image-front:hover{
+    transform:translateY(-1200px);
+  transition:.1s ease-in;
+}
+.delight_food{
+  position:relative;
+  overflow:hidden;
+  height:300px;
+  /* width:300px; */
+}
+.delight_food img{
+  position:absolute; 
+  transition: 10s ease-out;
+  cursor:pointer;
+  scroll-behavior: smooth;
+}
+.delight_food .image-front:hover{
+    transform:translateY(-665px);
+  transition:.1s ease-in;
+}
+.popeyes{
+  position:relative;
+  overflow:hidden;
+  height:300px;
+  /* width:300px; */
+}
+.popeyes img{
+  position:absolute; 
+  transition: 10s ease-out;
+  cursor:pointer;
+  scroll-behavior: smooth;
+}
+.popeyes .image-front:hover{
+    transform:translateY(-400px);
+  transition:.1s ease-in;
+}
+.perfumy{
+  position:relative;
+  overflow:hidden;
+  height:300px;
+  /* width:300px; */
+}
+.perfumy img{
+  position:absolute; 
+  transition: 10s ease-out;
+  cursor:pointer;
+  scroll-behavior: smooth;
+}
+.perfumy .image-front:hover{
+    transform:translateY(-200px);
+  transition:.1s ease-in;
+}
+
+
+@media (max-width:768px){
+    .project_img{
+        margin-left: 100px;
+    }
+    .projects_bg{
+        height:1500px;
+    }
+    .delight_food{
+      margin-top: 20px;
+    }
+    .popeyes{
+       margin-top: 20px;
+    }
+    .wrapper{
+      margin-top: 20px;
+    }
+    }
+
+
+@media (min-width:768px){
+
+}
+.projects{
+  overflow: hidden;
+}
